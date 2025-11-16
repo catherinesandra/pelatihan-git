@@ -1,3 +1,10 @@
+git status = melihat status
+git add . = menambah semua 
+git add <nama-file> = untuk menambah file tertentu
+git commit -m <message> = menambah ke git lokal
+git push origin main = bisa diganti ke branch
+
+
 untuk membuat branch baru 
 "git branch <nama-branch-baru>"
 branch akan dimulai dari posisi terakhir saat ini. (commit terakhir kita aktif)
@@ -10,7 +17,7 @@ untuk membuat branch baru dan langsung pindah
 "git checkout -b <nama-branch-baru>"
 
 untuk menggabungkan branch dengan main
-1. harus kembali ke branch target (misalnya ingin menggabungkan ke main)
+1. harus kembali ke branch target (penerima) (misalnya ingin menggabungkan ke main)
 
 2 perintah:
 1. Pindah kembali ke "git checkout main"
