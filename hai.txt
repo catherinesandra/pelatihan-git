@@ -1,1 +1,17 @@
-well well well
+untuk membuat branch baru 
+"git branch <nama-branch-baru>"
+branch akan dimulai dari posisi terakhir saat ini. (commit terakhir kita aktif)
+HANYA MEMBUAT BRANCH BARU DAN BELUM PINDAH
+
+untuk berpindah ke branch lain
+"git checkout <nama-branch-tujuan>"
+
+untuk membuat branch baru dan langsung pindah
+"git checkout -b <nama-branch-baru>"
+
+untuk menggabungkan branch dengan main
+1. harus kembali ke branch target (misalnya ingin menggabungkan ke main)
+
+2 perintah:
+1. Pindah kembali ke "git checkout main"
+2. Perintah merge : "git merge fitur-header"
