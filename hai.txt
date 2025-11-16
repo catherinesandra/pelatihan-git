@@ -22,3 +22,7 @@ untuk menggabungkan branch dengan main
 2 perintah:
 1. Pindah kembali ke "git checkout main"
 2. Perintah merge : "git merge fitur-header"
+
+menghapus branch yang sudah di merge:
+"git branch -d <nama-branch>"
+(TIDAK BISA MENGHAPUS BRANCH YANG SEDANG DITEMPATI)
