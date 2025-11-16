@@ -26,3 +26,5 @@ untuk menggabungkan branch dengan main
 menghapus branch yang sudah di merge:
 "git branch -d <nama-branch>"
 (TIDAK BISA MENGHAPUS BRANCH YANG SEDANG DITEMPATI)
+
+coba coba
